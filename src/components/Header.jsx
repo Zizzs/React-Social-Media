@@ -1,15 +1,15 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React from 'react';
+import Navbar from './Navbar';
 
-function Header(props) {
+function Header() {
     
-    return(
-        <div>
-            <Navbar></Navbar>
-            <hr></hr>
-        </div>
+  return(
+    <div>
+      <Navbar></Navbar>
+      <hr></hr>
+    </div>
         
-    );
+  );
 }
 
 export default Header;
